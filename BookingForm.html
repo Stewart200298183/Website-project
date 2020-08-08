@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Booking Form</title>
+    <link rel="stylesheet" type="text/css"href="booking.css">
+  </head>
+  <form method="get">
+    <nav>
+      <a href="Tyson_Catering.html">Home</a> &nbsp;
+      <a href="package.html">Theme Packages</a> &nbsp;
+      <a href="BookingForm.html">Booking Form</a> &nbsp;
+      <a href="aboutUs.html">About Us</a> &nbsp;
+    </nav>
+<h1>Tyson's Catering Booking Form</h1>
+<img class="fire" src="fire.jfif" alt= >
+<p> Please fill out booking form if you are interested in our services. We require a 30% deposit upfront.</p>
+<br>
+
+<legend>Contact Information</legend>
+<p id="contact">
+<label class= "user name" id="firstName">
+First Name:</label>
+<input type="text" name="First Name" size="35" maxlength="35">
+<br>
+<br>
+<label class="user name" id= "lastName">
+Last Name:</label>
+<input type= "text" name="Last Name" size="35" maxlength="35" >
+<br>
+<br>
+<label class="user name" id=companyName>
+Company Name (optional)</label>
+<input type="text" name="Company Name">
+<br>
+<br>
+Phone Number:<input type="tel" id=Phone name="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" >
+</fieldset>
+</p>
+<br>
+
+<legend> Service </legend>
+<fieldset>
+<p>Theme Package</p>
+<select id="Package">
+  <option value="Wild">Wild Game</option>
+  <option value ="ST">Exotic Surf n'Turf</option>
+  <option value="Burger">Burger Night</option>
+</select>
+<p> Dietary Options</p>
+<input type="radio" name="Veg" value="vegetarian">Vegetarian
+<input type="radio" name="Veg" value="Vegan">Vegan
+<p>Bar Service (additional fee)<p>
+<input type="radio" name="Bar" value="y">Yes
+<input type="radio" name="Bar" value="N">No
+</fieldset>
+<legend>Other information:<legend>
+<br>
+<textarea name="Sug" rows="3" cols="35">
+</textarea>
+<br>
+<input  value="Submit" type="submit">
+<input value="Reset" type="reset">
+</fieldset>
+<br>
+<br>
+</form>

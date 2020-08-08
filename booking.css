@@ -1,0 +1,48 @@
+nav{font-size: 200%;
+font-family: monospace;
+text-align: right;}
+h1{
+  text-align: center;
+  font-family: monospace;
+  font-size: 300%;
+
+}
+.fire{
+  width: 1500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+p{
+  font-size: 135%;
+font-family: serif;
+}
+#contact{
+  border: 10px Solid black;
+  padding: 20px;
+  margin: 20px auto;
+   width: 80%;
+   max-width: 750px;
+}
+fieldset{
+  border: 10px solid black;
+  padding: 20px;
+  margin: 20px auto;
+   width: 80%;
+   max-width: 750px;
+}
+legend{
+  text-align: center;
+  font-family: monospace;
+  font-size: 180%;
+}
+textarea{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

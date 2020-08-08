@@ -1,0 +1,55 @@
+nav{font-size: 200%;
+font-family: monospace;
+text-align: right;}
+h1{
+  text-align: center;
+  font-family: monospace;
+  font-size: 300%;
+
+}
+.fire{
+  width: 1500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+p{
+  font-size: 135%;
+text-align: center;
+font-family: serif;
+}
+.plating{
+width: 800px;
+height:400px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+h2{
+  font-size:200%;
+  text-align: center;
+  font-family:monospace;
+}
+li{
+  font-family: sans-serif;
+  font-size: 120%;
+  text-align: center;
+  list-style-type: square;
+}
+.chef{
+  width: 200px;
+  height:400px;
+}
+.burger{
+  width: 600px;
+  height:300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.stew{
+  width: 600px;
+  height:300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
